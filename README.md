@@ -20,7 +20,7 @@ Jenkins requires Java to run. Follow the steps below to install **OpenJDK 17**:
 
 ```bash
 sudo apt update
-sudo apt install openjdk-17-jre
+sudo apt install openjdk-17-jre -y
 ```
 
 ### 1.2 Verify Java Installation:
@@ -57,7 +57,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 
 ```bash
 sudo apt-get update
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 ```
 
 ---
