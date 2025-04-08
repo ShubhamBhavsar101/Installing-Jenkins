@@ -127,8 +127,9 @@ To use Docker in your Jenkins pipeline, you need to install the **Docker Pipelin
 1. Log in to Jenkins.
 2. Go to **Manage Jenkins** > **Manage Plugins**.
 3. In the **Available** tab, search for **"Docker Pipeline"**.
-4. Select the plugin and click the **Install** button.
-5. After the installation, restart Jenkins.
+4. Select the **"Docker Pipeline"** Plugin. 
+5. Click the **Install** button.
+6. After the installation, restart Jenkins.
 
 ![Docker Pipeline Plugin](https://github.com/user-attachments/assets/94ea92ac-aa33-4597-8e9a-1cf5d581b420)
 
@@ -155,7 +156,7 @@ You need to grant the **Jenkins** and **Ubuntu** users permission to run Docker 
 
 ```bash
 sudo usermod -aG docker jenkins
-sudo usermod -aG docker ubuntu
+sudo usermod -aG docker $USER
 sudo systemctl restart docker
 ```
 
