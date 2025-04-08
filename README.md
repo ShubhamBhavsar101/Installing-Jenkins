@@ -98,7 +98,7 @@ You will be prompted to create your first **admin user**. This step is optional,
 
 - **Fill in the details** for your admin user and click **Save and Finish**.
 
-![Admin User Creation](https://github.com/user-attachments/assets/bf26839a-ace6-495f-80e3-abdfcd396ebd)
+<img src="https://github.com/user-attachments/assets/bf26839a-ace6-495f-80e3-abdfcd396ebd" height="450" />
 
 ### 4.3 Final Configuration
 
